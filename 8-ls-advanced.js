@@ -5,7 +5,7 @@ const pc = require('picocolors')
 const folder = process.argv[2] ?? '.'
 
 async function ls (folder){
-    let files
+  let files
 
     try{
         files = await fs.readdir(folder)
